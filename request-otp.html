@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request OTP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="form">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <!-- <label for="extUserId">External User Id:</label>
+        <input type="text" id="extUserId" name="extUserId" placeholder="Enter external user id"> -->
+            <button id="requestOtpButton">Request OTP</button>
+        </div>
+        <div class="successMsg" id="successMsg">
+            <p>Please check your inbox, We have sent you a link!</p>
+        </div>
+        <div class="errorMsg" id="errorMsg">
+            <p>Something went wrong!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

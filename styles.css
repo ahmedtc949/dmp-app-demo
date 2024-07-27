@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: start;
+    max-width: 70%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#requestOtpButton {
+    background-color: #6200ea;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#requestOtpButton:hover {
+    background-color: #3700b3;
+}
+
+/* Verify OTP css  */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#verifyButton {
+    background-color: #6200ea;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#verifyButton:hover {
+    background-color: #3700b3;
+}
+
+
+.successMsg {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #90EE90;
+    border-radius: 12px;
+}
+
+.errorMsg {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #FFCCCC;
+    border-radius: 12px;
+}
